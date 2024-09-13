@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PollosWeed.exe" version="1.0.0.7" publicKeyToken="885afd7459743fbf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PollosWeed" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PollosWeed.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PollosWeed.exe" size="4074976">
+      <assemblyIdentity name="PollosWeed" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1VGVfQHJcc9WbS0bZgfkqI6T/rDr4V2oRG5v1hZdhTs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name=".gitignore" size="9">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZMhuZSyMemMqnZkHDf+GqhVXdCGGdsHqBgQ3y/EAtmk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PollosWeed.exe.config" size="318">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x7fxC32wryBK33aaYZ7icrfruq3cmgQZGitfrc3Bu0c=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CARLITOX\Carlos Bylon" issuerKeyHash="07b76c4be3f59434793f6b22ed724429b4d5e90d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WOmDFCAn+KA6DC9Qf19lT77ncduq/fORZL2ojODfAco=</DigestValue></Reference></SignedInfo><SignatureValue>qxPDKbGoJ9ZRcbE1Jv3snjWaNvvD5A6JI7m5e/KjqxaEvzgWVuqmy+rqugHEyKGeVKHKuF4cXMIeNWKAZh/vfMX1+GmNb2Kr9R9+PIN9U4bfAh0kJGDHsklLCjBDp+4G2nV0QSyBpLeGgJG2uou1c01niAZARebzn1DNUloTo2g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6E57YFQZ9kzAi9osqdfaSpoqtLWJDbJK4bTtvL2gi/04SZLouUt3m6TXXQ2ZOOmbEUSSCm/BnCAd0c+m99KLHvMAZ6eUEEnqDDXPJjL8vju9qcCW1vUJ+qnNrvKnYt4eRkGU5hRPMYlFsPtrGENaXyCu3xj2kKigkvLoN7u8x4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ca01dfe08ca8bd6491f3fdaadb71e7be4f655f7f502f0c3aa0f827201483e958" Description="" Url=""><as:assemblyIdentity name="PollosWeed.exe" version="1.0.0.7" publicKeyToken="885afd7459743fbf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CARLITOX\Carlos Bylon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>owUbMzYaZI3Z9HdjnIQy9TwJJoFdEYowLGEg0KmYcVE=</DigestValue></Reference></SignedInfo><SignatureValue>4YzcMvfjTI/oTGZuDpMTPpgP8v/5ThH/kCNt838HVHGQyw8ovsHhOgQ2OiCjK+D3a3vKsaZR9OuwVyJQwhRXt0Y6yxISt6KlVq4SyiKcVeNs1q9W1C1qe/PTAjw7UlGTTG5c+8siOZu0JTm3fb7B5Vel6fRSCROOFb4CIJdgILM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6E57YFQZ9kzAi9osqdfaSpoqtLWJDbJK4bTtvL2gi/04SZLouUt3m6TXXQ2ZOOmbEUSSCm/BnCAd0c+m99KLHvMAZ6eUEEnqDDXPJjL8vju9qcCW1vUJ+qnNrvKnYt4eRkGU5hRPMYlFsPtrGENaXyCu3xj2kKigkvLoN7u8x4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGDXnt5Juu75CKOBR6uclzjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAQwBBAFIATABJAFQATwBYAFwAQwBhAHIAbABvAHMAIABCAHkAbABvAG4wHhcNMjQwOTExMDMxOTA1WhcNMjUwOTExMDkxOTA1WjA1MTMwMQYDVQQDHioAQwBBAFIATABJAFQATwBYAFwAQwBhAHIAbABvAHMAIABCAHkAbABvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOhOe2BUGfZMwIvaLKnX2kqaKrS1iQ2ySuG07by9oIv9OEmS6LlLd5uk110NmTjpmxFEkgpvwZwgHdHPpvfSix7zAGenlBBJ6gw1zyYy/L47vanAltb1Cfqpza7yp2LeHkZBlOYUTzGJRbD7axhDWl8grt8Y9pCooJLy6De7vMeBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAR5hhLcb3G/v23Ze+y7LgKF6ibkLGpuDkhtXU1hitNHkZgHqVP/IhwkhSOYz42q7oQnbtWzI8WRgew4yq02imHboFST6o4WJ03qfkYuAc+xMS0gaW1DWWmaHLx9z2saOefMxIZ5eKaYqfHjZGabbYSlwKO07gdG+qIfcD9iIEZP8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
